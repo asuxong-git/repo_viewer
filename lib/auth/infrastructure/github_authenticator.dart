@@ -32,6 +32,7 @@ class GithubAuthenticator {
 
   static final tokenEndpoint =
       Uri.parse('https://github.com/login/oauth/access_token');
+
   static final revocationEndpoint =
       Uri.parse('https://api.github.com/applications/$clientId/token');
 
