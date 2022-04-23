@@ -9,11 +9,11 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Material App Bar'),
+          title: const Text('Material App Bar'),
         ),
         body: Center(
           child: Container(
-            child: Text('Hello World'),
+            child: const Text('Hello World'),
           ),
         ),
       ),
